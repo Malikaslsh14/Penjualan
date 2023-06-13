@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-06-07T03:32:00.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IOOesyzbaoU_u6UE_fpQ" version="21.3.7" type="device">
+  <diagram name="Page-1" id="oTkGvAL6yroK9fyynSKv">
+    <mxGraphModel dx="880" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-39" value="Pembeli" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-40" value="Sistem Penjualan Tiket" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="360" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-17" value="Memilih Kursi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="130" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-18" value="Memilih Jenis Tiket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="210" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-19" value="Menampilkan Harga Tiket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="290" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-20" value="Memasukkan Nama Pembeli" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="370" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-21" value="Memasukkan Jumlah Tiket yang dibeli" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="450" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-22" value="Menampilkan Total yang harus dibayar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="549.5" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-23" value="Melakukan Pembayaran" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="650" width="177.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-24" value="Menampilkan jumlah kembalian&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="740" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-34" value="Mencetak Data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="840" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-39" target="GdXDu2QqIH9HG5mQhbxz-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-39" target="GdXDu2QqIH9HG5mQhbxz-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-50" value="Petugas" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="585" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GdXDu2QqIH9HG5mQhbxz-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-40" target="GdXDu2QqIH9HG5mQhbxz-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GdXDu2QqIH9HG5mQhbxz-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-40" target="GdXDu2QqIH9HG5mQhbxz-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-50" target="GdXDu2QqIH9HG5mQhbxz-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-50" target="GdXDu2QqIH9HG5mQhbxz-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdXDu2QqIH9HG5mQhbxz-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdXDu2QqIH9HG5mQhbxz-50" target="GdXDu2QqIH9HG5mQhbxz-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="820" as="sourcePoint" />
+            <mxPoint x="440" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
